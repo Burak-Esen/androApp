@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">HelloWorld</string>
     <string name="hello_clicker">Hello Clicker</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Say Hello</string>
     <string name="count">Count</string>
     <string name="_0">0</string>
     <string name="reset_counter_message">"You've reset counter!"</string>
+    <string name="say_hello">"Hello"</string>
 </resources>

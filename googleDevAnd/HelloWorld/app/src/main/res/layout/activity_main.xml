@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="412dp"
+        android:layout_width="match_parent"
         android:layout_height="73dp"
         android:background="@color/colorAccent"
         android:text="@string/hello_clicker"
@@ -24,13 +24,13 @@
 
     <Button
         android:id="@+id/button_reset"
-        android:layout_width="247dp"
-        android:layout_height="81dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="108dp"
         android:layout_marginEnd="17dp"
         android:background="@color/colorPrimary"
-        android:onClick="resetCount"
+        android:onClick="lunchHelloActivity"
         android:text="@string/reset"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@android:color/white"
@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/button_count"
-        android:layout_width="249dp"
-        android:layout_height="86dp"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
         android:layout_marginStart="17dp"
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="104dp"
